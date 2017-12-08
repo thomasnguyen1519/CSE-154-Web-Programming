@@ -1,0 +1,201 @@
+<!-- Name: Tom Nguyen
+     Section: AD
+     Assignment: Creative Project
+     Contents: This is the "main" HTML Code for my creative project. Links together
+     with a separate CSS file. This HTML project is an absolute ranking of the most
+     powerful Marvel Superheroes. Contains simple HTML tags at the moment.
+     Still under development. I am not sure how change the styling to the
+     previous CSS styling. Still figuring it out. I also still need to figure
+     out how to make the links go down to the correct section. -->
+
+
+<!--  What I am trying to do with my AJAX call to an online API
+
+     I am still trying to figure out this Netflix API thing I found. It seems
+     like it does not have that many movie options... But it does work with my
+     test of the input of "attack on titan" which is pretty cool. I will continue
+     to play around with it.
+
+     https://www.programmableweb.com/api/unofficial-marvel-stream-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Marvel-ous Rankings</title>
+        <meta charset="utf-8" />
+        <link type="text/css" rel="stylesheet" href="index.css" />
+        <script src="index.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    </head>
+    <body>
+    <header class="navbar-inverse">
+        <nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">Home</a>
+                </div>
+
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Hulk<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Hulk</a></li>
+                    <li><a href="#">Black Widow</a></li>
+                    <li><a href="#">DeadPool</a></li>
+                    <li><a href="#">Ironman</a></li>
+                    <li><a href="#">Thor</a></li>
+                    <li><a href="#">Captain America</a></li>
+                    <li><a href="#">Daredevil</a></li>
+                    <li><a href="#">Vision</a></li>
+                    <li><a href="#">Spider-Man</a></li>
+                    <li><a href="#">Wolverine</a></li>
+                    <li><a href="#">Hero Generator</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </header>
+        <p>This page is still currently under development!!!</p>
+        <article><h1>Top 5 Most Powerful Marvel Superheroes</h1>
+            <hr />
+            <section><h2>List of Nominees</h2>
+                <div id="rowofpics">
+                    <p>
+                    <img src="https://qph.ec.quoracdn.net/main-qimg-4d0a62d0982b5943c9162f38a473a46f-c" alt="Wolverine" />
+                    </p>
+                    <p>
+                        <img src="http://31.media.tumblr.com/tumblr_m7ko4bVFak1rsy50k.gif" alt="Black Widow fighting" />
+                    </p>
+                    <p>
+                        <img src="https://bretthuff22.files.wordpress.com/2013/05/m97crmg.gif" alt="The Avengers" id="avengers"/>
+                    </p>
+                    <p>
+                        <img src="http://i.imgur.com/A3pSzxm.gif" alt="Hulk punches Thor" />
+                    </p>
+                    <p>
+                        <img src="https://68.media.tumblr.com/6b205e7e3acaf2edbeecbcee1770c116/tumblr_o2wxuwfc6y1udh5n8o1_500.gif" alt="Deadpool shocked" />
+                    </p>
+                    <p>
+                        <img src="https://s-media-cache-ak0.pinimg.com/originals/f4/22/cd/f422cd96cb83bfdbe7ba3e12bef34d48.jpg" alt="Ironman shooting laser" />
+                    </p>
+                </div>
+                <ul>
+                    <li>The Hulk</li>
+                    <li>Black Widow</li>
+                    <li>Deadpool</li>
+                    <li>Ironman</li>
+                    <li>Thor</li>
+                    <li>Captain America</li>
+                    <li>Daredevil</li>
+                    <li>Vision</li>
+                    <li>Spider-Man</li>
+                    <li>Wolverine</li>
+                </ul>
+            </section>
+            <section><h2>Cases For Each Candidate</h2>
+                <div id="hulkinfo" class="heroinfo">
+                    <h3>The Hulk</h3>
+                    <p class="shortbio">Recruited to be a member of <abbr title="Strategic Homeland Intervention, Enforcement and Logistics Division">
+                    S.H.I.E.L.D.</abbr>, The Hulk is the ulterior alias of Dr. Bruce Banner. It is somewhat of a Dr. Jekyll and Mr. Hyde
+                    relationship. The Hulk is a superhuman being that iconicly turns green and increases his strength 100-fold
+                    whenever he gets angry.</p>
+                    <p><img src="http://img.wennermedia.com/480-width/rs-194725-R1234_FEA_HULK_A.jpg" alt="The Hulk" /><br>
+                    More Information: <a href="hulk.html"> The Hulk</a></p>
+                </div>
+                <div id="blackwidowinfo" class="heroinfo">
+                    <h3>Black Widow</h3>
+                    <p class="shortbio"></p>
+                </div>
+                <div id="deadpoolinfo" class="heroinfo">
+                    <h3>Deadpool</h3>
+                    <p class="shortbio"></p>
+                </div>
+                <div id="ironmaninfo" class="heroinfo">
+                    <h3>Ironman</h3>
+                    <p class="shortbio"></p>
+                </div>
+                <div id="thorinfo" class="heroinfo">
+                    <h3>Thor</h3>
+                    <p class="shortbio"></p>
+                </div>
+                <div id="captaininfo" class="heroinfo">
+                    <h3>Captain America</h3>
+                    <p class="shortbio">This was how Tony Stark described him in a heated argument: </p>
+                    <blockquote>
+                        <p>You're a laboratory experiment, Rogers. Everything special about
+                            you came out of a bottle!</p>
+                    </blockquote>
+                    <p><img src="http://www.reactiongifs.us/wp-content/uploads/2014/07/understood_that_reference_avengers.gif" alt="Black Widow fighting" id="capagif" /></p>
+                </div>
+                <div id="daredevilinfo" class="heroinfo">
+                    <h3>Daredevil</h3>
+                    <p class="shortbio"></p>
+                </div>
+                <div id="visioninfo" class="heroinfo">
+                    <h3>Vision</h3>
+                    <p class="shortbio"></p>
+                </div>
+                <div id="spidermaninfo" class="heroinfo">
+                    <h3>Spider-man</h3>
+                    <p class="shortbio"></p>
+                </div>
+                <div id="wolverineinfo" class="heroinfo">
+                    <h3>Wolverine</h3>
+                    <p class="shortbio"></p>
+                </div>
+            </section>
+            <section><h2>Ranking of the Marvel-ous Heroes (Preliminary)</h2>
+                <ol>
+                    <li>Vision</li>
+                    <li>Thor</li>
+                    <li>Ironman</li>
+                    <li>Deadpool</li>
+                    <li>The Hulk</li>
+                </ol>
+            </section>
+            <section><h2>What Marvel Superhero Are You?</h2>
+                <div class="display">
+                    <p id="heroname">...</p>
+                </div>
+                <br />
+                <div id="subinfo">
+                    <input type="text" placeholder="Enter your name" size="35">
+                    <button id="generate">Generate!</button>
+                </div>
+            </section>
+            <section><h2>Want a Summary of a Marvel Movie?</h2>
+                <div id="summarydisplay" class="display">
+                    ...
+                </div>
+                <br />
+                <div id="movieoptions">
+                    <input id="movieinput"type="text" placeholder="Type Movie Name" size="35">
+                    <button id="generatemovie">Find!</button>
+                </div>
+            </section>
+            <section><h2>Where is the closest movie theater to you?</h2>
+                <form action="data.php" method="post">
+                    Address<br>
+                    <input type="text" name="address"><br>
+                    City:<br>
+                    <input type="text" name="city"><br>
+                    State:<br>
+                    <input type="text" name="state"><br>
+                    Zip Code:<br>
+                    <input type="text" name="zipcode"><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </article>
+
+    </body>
+</html>

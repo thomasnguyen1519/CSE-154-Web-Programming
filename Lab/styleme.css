@@ -1,0 +1,23 @@
+li {
+    color: blue;
+    font-size: smaller
+}
+
+h1 { 
+    color: aqua;
+    font-family: fantasy;
+}
+
+h2 {
+    color: lime;
+    font-family: sans-serif
+}
+
+p {
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+}
+
+body {
+    background-color: red;
+}

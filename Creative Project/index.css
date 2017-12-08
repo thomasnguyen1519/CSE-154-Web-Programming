@@ -1,0 +1,88 @@
+/* Name: Tom Nguyen
+     Section: AD
+     Assignment: Creative Project
+     Contents: This is the CSS Code for my creative project. Links together with
+     a separate HTML file. Alters the style of the specified selectors corresponding
+     to tags in the linked HTML webpage.  */
+
+h1 {
+    font-weight: 400;
+    font-size: 32pt;
+    text-align: center;
+    text-shadow: 3px 2px #ff0000;
+    color: yellow;
+    border: 3px solid yellow;
+}
+
+h2 {
+    color: yellow;
+    font-size: 18pt;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+a {
+    color: purple;
+}
+
+li {
+    color: white;
+}
+
+body {
+    background-color: black;
+    font-family: fantasy;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/3d/9b/db/3d9bdb7221b4e9fbaf4e5310c2278c53.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p {
+    color: white;
+    font-weight: 600;
+}
+
+div > h3 {
+    color: red;
+    margin: 25px;
+}
+
+div blockquote {
+    font-style: italic;
+    font-family: Arial;
+    font-size: 10pt;
+    border: 3px dashed yellow;
+    border-radius: 7px;
+}
+
+ol {
+    font-weight: 900;
+}
+
+p > abbr {
+    color: lightblue;
+}
+
+#rowofpics img {
+    height: 200px;
+    width: 160px;
+}
+
+#rowofpics {
+    display: flex;
+    float: right;
+}
+
+#rowofpics #avengers {
+    flex-grow: 3;
+}
+
+.shortbio {
+    font-family: cursive;
+    margin: 10px;
+}
+
+#capagif {
+    padding-top: 10px;
+    width: 300px;
+}

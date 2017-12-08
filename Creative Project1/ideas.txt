@@ -1,0 +1,4 @@
+create a personal travel blog
+include a fun fact generator
+	- maybe about certain places
+	- maybe inspirational quotes

@@ -1,0 +1,60 @@
+body {
+	background-color: #EAF6F6;
+	font-family: Garamond, serif;
+	font-size: 12pt;
+	text-align: center;
+}
+
+#display {
+	width: 80%;
+	height: 100px;
+	border: 2px solid #8EBEBE;
+	border-radius: 5px;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 36pt;
+	background-color: #FFFFFF;
+	line-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#display p {
+	margin-top: 0px; /* is this how to center */
+}
+
+#controls {
+	margin-top: 10px;
+	display: flex;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center; /* change this later; could try display: inline; */
+}
+
+legend {
+	font-weight: bold;
+	text-align: left;
+	border-bottom: 1px solid #8EBEBE;
+	width: 100%;
+	padding: 2px;
+}
+
+textarea {
+	background-color: #FFFFFF;
+	border: 1px solid gray;
+}
+
+button {
+	background-color: #FFFFFF;
+	border: 1px solid gray;
+	width: 70px;
+}
+
+#validator {
+	width: 70px;
+	position: fixed;
+	bottom: 5px;
+	left: 5px;
+}
+

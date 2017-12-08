@@ -1,0 +1,145 @@
+/* Name: Tom Nguyen
+     Section: AD
+     Assignment: Creative Project
+     Contents: This is the CSS Code for my creative project. Links together with
+     a separate HTML file. Alters the style of the specified selectors corresponding
+     to tags in the linked HTML webpage.  */
+
+h1 {
+    font-weight: 400;
+    font-size: 32pt;
+    text-align: center;
+    text-shadow: 3px 2px #ff0000;
+    color: yellow;
+    border: 3px solid yellow;
+}
+
+h2 {
+    color: yellow;
+    font-size: 18pt;
+    border: 1px solid red;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a {
+    color: purple;
+}
+
+li {
+    color: white;
+}
+
+body {
+    background-color: black;
+    font-family: fantasy;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/3d/9b/db/3d9bdb7221b4e9fbaf4e5310c2278c53.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p {
+    color: white;
+    font-weight: 600;
+}
+
+div > h3 {
+    color: red;
+    margin: 25px;
+}
+
+div blockquote {
+    font-style: italic;
+    font-family: Arial;
+    font-size: 10pt;
+    border: 3px dashed yellow;
+    border-radius: 7px;
+}
+
+ol {
+    font-weight: 900;
+}
+
+p > abbr {
+    color: lightblue;
+}
+
+#rowofpics img {
+    height: 200px;
+    width: 160px;
+}
+
+#rowofpics {
+    display: flex;
+    float: right;
+    flex-direction: columns;
+}
+
+.shortbio {
+    font-family: cursive;
+    margin: 10px;
+}
+
+#capagif {
+    width: 300px;
+}
+
+.display {
+    width: 60%;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: white;
+    line-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+    font-size: 32pt;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#subinfo, #movieoptions {
+    text-align: center;
+}
+
+#heroname {
+    font-size: 32pt;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 0px;
+
+}
+
+#coolbutton {
+    background-color: red;
+    width: 170px;
+    height: 80px;
+    margin: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    float: left;
+    text-align: center;
+}
+
+#textincoolbutton {
+    color: #FFD700;
+}
+
+
+#summarydisplay {
+    font-size: 14pt;
+    font-style: normal;
+    overflow-y: scroll;
+}
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+factoring
+catching the right exception errors
+which parameters are optional
+ucfirst(str) to capitalize first letter
+need to put headers before messageOutput calls
